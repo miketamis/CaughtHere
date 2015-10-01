@@ -3,17 +3,17 @@
 @import '../variables.css';
 
 :root {
-  --brand-color: #61dafb;
+  --brand-color: #3FBA4E;
 }
 
 .Header {
-  background: #373277;
+  background: #6143A5;
   color: #fff;
 }
 
 .Header-container {
-  margin: 0 auto;
-  padding: 20px 0;
+  margin-left: 20px;
+  padding: 10px 0;
   max-width: var(--max-content-width);
 }
 
@@ -21,6 +21,14 @@
   color: color(var(--brand-color) lightness(+10%));
   text-decoration: none;
   font-size: 1.75em; /* ~28px */
+}
+
+.Header-brand-img {
+  width: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("./logo_large.png");
+  height: 60px;
 }
 
 .Header-brandTxt {

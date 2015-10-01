@@ -14,9 +14,8 @@ class Header extends Component {
       <div className="Header">
         <div className="Header-container">
           <a className="Header-brand" href="/" onClick={Link.handleClick}>
-            <span className="Header-brandTxt">Caught Here</span>
+          <div className="Header-brand-img"> </div>
           </a>
-          <Navigation className="Header-nav" />
         </div>
       </div>
     );

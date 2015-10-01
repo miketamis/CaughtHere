@@ -1,0 +1,74 @@
+.Red-Cod {
+  background-image: url("./red-cod.gif");
+}
+
+.Blue-Cod {
+  background-image: url("./blue-cod.png");
+}
+
+.Groper {
+  background-image: url("./hapuka.png");
+}
+
+.Clams {
+  background-image: url("./clams.jpg");
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  font-size: 250%;
+  margin: 20px;
+  margin-top: 30px;
+}
+
+.fish {
+  height: 150px;
+  margin: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: white;
+  border: 1px solid #8C83A1;
+  font-size: 180%;
+
+  color: #0B2FB1;
+}
+
+.cost-bar {
+  width:90%;
+  bottom: 10px;
+  position: absolute;
+}
+
+.cost {
+  font-size: 50%;
+  color: #0B2FB1;
+  font-family: 'Helvetica';
+  width:80px;
+  height: 20px;
+  background-color: #13C82A;
+  text-align: center;
+  border: 1px solid #6143A5;
+}
+
+.cost-left {
+  float:left;
+}
+
+.cost-center {
+  margin:0 auto;
+}
+
+.cost-right {
+  float:right;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+
+.fishofday {
+  margin: 10px;
+  /*margin-left: 40px; */
+  /*background-color: #826FAE;*/
+}

@@ -1,0 +1,6 @@
+{
+  "name": "FishOfDay",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./FishOfDay.js"
+}
