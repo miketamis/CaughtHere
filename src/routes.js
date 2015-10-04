@@ -11,6 +11,7 @@ import RegisterPage from './components/RegisterPage';
 import NotFoundPage from './components/NotFoundPage';
 import ErrorPage from './components/ErrorPage';
 import FishOfDay from './components/FishOfDay';
+import FishBuyPage from './components/FishBuyPage';
 
 const router = new Router(on => {
   on('*', async (state, next) => {
@@ -25,6 +26,8 @@ const router = new Router(on => {
   on('/register', async () => <RegisterPage />);
 
   on('/', async () => <FishOfDay />);
+
+  on('/fish/:id', async (req) => <FishBuyPage fish={req.params.id} />);
 
   on('*', async (state) => {
     const content = await http.get(`/api/content?path=${state.path}`);

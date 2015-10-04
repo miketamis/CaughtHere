@@ -11,7 +11,7 @@ class Fish extends Component {
 
   render() {
     return (
-      <a href={"/fish?" + this.props.children.replace(' ', '-')} onClick={Link.handleClick}>
+      <a href={"/fish/" + this.props.children.replace(' ', '-')} onClick={Link.handleClick}>
   <div className={"col-md-3 fish " + this.props.children.replace(' ', '-')}>
       {this.props.children}
       <Costs small='$10' medium='$20' large='$30'/>

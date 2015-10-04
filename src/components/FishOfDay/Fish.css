@@ -1,5 +1,6 @@
 .Red-Cod {
   background-image: url("./red-cod.gif");
+  background-size: contain;
 }
 
 .Blue-Cod {

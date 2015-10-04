@@ -1,0 +1,6 @@
+{
+  "name": "FishBuyPage",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./FishBuyPage.js"
+}

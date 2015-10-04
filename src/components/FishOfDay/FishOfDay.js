@@ -8,7 +8,7 @@ class FishOfDay extends Component {
   render() {
     return (
       <div>
-        <span className="title"> Fish of the Day </span>
+        <span className="title"> Caught on the Day </span>
         <div className="row fishofday">
           <Fish>Groper</Fish>
           <Fish>Blue Cod</Fish>
